@@ -6,6 +6,10 @@ var day=d.getDay()
 var date=d.toLocaleDateString()
 var b=document.getElementById('second')
 b.innerText=date
+if(day==0)
+{
+a.innerText='Sunday'
+}
 if(day==1)
 {
 a.innerText='Monday'
